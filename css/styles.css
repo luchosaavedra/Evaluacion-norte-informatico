@@ -1,0 +1,84 @@
+.contenedor {
+    max-width: 100rem;
+    margin: 0 auto;
+    height: 100%;
+}  
+.fondo img{
+    width: 100%;
+}
+.primertexto{
+    background-color: #b82b2b;
+    color: white;
+    text-align: center;
+    font-size: 7px;
+    margin: 0 0;
+}
+.segundotexto{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 40%;
+    display: flex;
+    width: 98.8%;
+}
+nav {
+    float: center;
+    margin: 0 1rem;
+    max-height: auto;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+.segundotexto h2 {
+    text-align: left;
+    flex: 50%;
+    font-size: 1rem;
+}
+
+.segundotexto h3 {
+    text-align: right;
+    flex: 50%;
+    font-size: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+.logo-norte{
+    position: absolute;
+    top: 10%;
+    left: 8%;
+}
+.iconos1{
+    float: center;
+    position: absolute;
+    top: 18%;
+    left: 78%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconos1 img {
+    height: 3rem;
+    margin: 0 0.8rem;
+
+}
+.li a{
+    background-color: rgba(100, 100, 100, 0.4);
+    position: absolute;
+    z-index: 2;
+}
