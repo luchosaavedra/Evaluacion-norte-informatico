@@ -55,6 +55,9 @@ nav ul li {
     font-size: 15px;
     font-weight: bold;
 }
+nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
 
 nav ul li a {
     display: block;
@@ -62,6 +65,9 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+nav ul li a:hover {
+    border-bottom: white 1px solid;
+  }
 .logo-norte{
     position: absolute;
     top: 10%;
